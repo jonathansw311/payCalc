@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Calculator</title>
+</head>
+
+<body>
+    <h1>Sarasota Subaru Simple Payment ESTIMATOR</h1>
+    <div class="container">
+    <form>
+        
+        <input type="radio" id="new" name="newUsed" value="new" class="radiobutton">
+        <label for="new">New</label>
+        <input type="radio" id="used" name="newUsed" value="used" checked class="radiobutton">
+        <label for="used">Used</label><br>
+        
+        <br><label for="sellPrice">Selling Price</label>
+        <input type="number" name="sellPrice" id="sellPrice" value="0"><br><br>
+
+        <label for="tradePrice">Trade Value</label>
+        <input type="number" name="tradePrice" id="tradePrice" value="0"><br><br>
+
+        <label for="tradePayoff">Trade Payoff</label>
+        <input type="number" name="tradePayoff" id="tradePayoff" value="0"><br><br>
+
+        <input type="radio" id="newPlates" name="plates" value="new" checked>
+        <label for="new">New Plates</label>
+        <input type="radio" id="usedPlates" name="plates" value="transfer" >
+        <label for="used">Transfer Plates</label><br><br>
+        
+        
+        <label for="cashDown">Cash Down</label>
+        <input type="number" name="cashDown" id="cashDown" value="0"><br><br>
+
+        <label for="months">Term</label>
+        <input type="number" name="months" id="months" value="72"><br><br>
+
+        <label for="rate">Rate</label>
+        <input type="text" name="rate" id="rate" value="9.0" size="4">%<br><br>
+
+        
+        
+        
+        
+        
+        
+        
+        <button>Get Payment</button>
+    </form>
+</div>
+    <div class="result">
+
+    </div>
+    
+<script src="calc.js"></script>
+</body>
+</html>

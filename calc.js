@@ -113,7 +113,7 @@ function sendPayment(payment){
     results2.innerHTML=`Taxes are $${taxes}`
     results1.innerHTML=`Amount Financed is: $${amtFin}`
     results3.innerHTML=`Your ESTIMATED plate fees are $${plateFee}`
-    results4.innerHTML=`Reconditioning Fees is $${reconFee}`
+    results4.innerHTML=`Reconditioning Fees are $${reconFee}`
     result.append(results, results1, results3)
     if (reconFee > 0){
         result.append(results4)

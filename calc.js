@@ -1,6 +1,6 @@
 
 let docFee=999.00;
-let thirdrdParty=244.00;
+let thirdrdParty=249.00;
 let plateFee;
 let newPlate=450.00;
 let transPlate=200.00;
